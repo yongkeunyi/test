@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+window.onload = function() {
     document.getElementById("addItem").addEventListener("click", function () {
         const newRow = document.createElement("tr");
 
@@ -10,5 +10,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
         document.querySelector("#scheduleTable tbody").appendChild(newRow);
     });
-});
+};
 
